@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h2 class = "logo">Logo</h2>
+        <nav class = "navigation">
+            <a href = "#" class = "active">Home</a>
+            <a href = "#">About</a>
+            <a href = "#">Service</a>
+            <a href = "#">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class = "parallax">
+        <h2 id = "text"></h2>
+        <img src = "https://imgs.search.brave.com/Uxq7ouYv6aMzVQprMdYqRm1D95D4-4khVNRlOUJ30hs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzk2/MjY5Y2U4LTRhMDct/NDcwMi05MzZhLTY4/NjBlMWI1NTk0Zi9k/ZDFtYzB5LTE0NDA3/Yzc4LTE3MjktNDI0/OC1hMWU2LWFhMWQ5/MjdjZWU5Yi5wbmc_/dG9rZW49ZXlKMGVY/QWlPaUpLVjFRaUxD/SmhiR2NpT2lKSVV6/STFOaUo5LmV5Snpk/V0lpT2lKMWNtNDZZ/WEJ3T2pkbE1HUXhP/RGc1T0RJeU5qUXpO/ek5oTldZd1pEUXhO/V1ZoTUdReU5tVXdJ/aXdpYVhOeklqb2lk/WEp1T21Gd2NEbzNa/VEJrTVRnNE9UZ3lN/alkwTXpjellUVm1N/R1EwTVRWbFlUQmtN/alpsTUNJc0ltOWlh/aUk2VzF0N0luQmhk/R2dpT2lKY0wyWmNM/emsyTWpZNVkyVTRM/VFJoTURjdE5EY3dN/aTA1TXpaaExUWTRO/akJsTVdJMU5UazBa/bHd2WkdReGJXTXdl/UzB4TkRRd04yTTNP/QzB4TnpJNUxUUXlO/RGd0WVRGbE5pMWhZ/VEZrT1RJM1kyVmxP/V0l1Y0c1bkluMWRY/U3dpWVhWa0lqcGJJ/blZ5YmpwelpYSjJh/V05sT21acGJHVXVa/RzkzYm14dllXUWlY/WDAuZXhqLXF1ZHgy/REhPT1dfRjhwZFUz/YWQxUUlfMnBMZFds/cnRQZUk1UG9Dcw" id = "em1">
+        <img src = "https://imgs.search.brave.com/bDI9-IaIyWC47I4lIj4ftP--Y5h3pBJvm5BRBEFnggI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzk2/MjY5Y2U4LTRhMDct/NDcwMi05MzZhLTY4/NjBlMWI1NTk0Zi9k/ZDFtYzM3LWMwODNm/YTVlLWFlOGMtNGE3/ZS04NjcyLTgzMDI0/OGFiMjY3YS5wbmc_/dG9rZW49ZXlKMGVY/QWlPaUpLVjFRaUxD/SmhiR2NpT2lKSVV6/STFOaUo5LmV5Snpk/V0lpT2lKMWNtNDZZ/WEJ3T2pkbE1HUXhP/RGc1T0RJeU5qUXpO/ek5oTldZd1pEUXhO/V1ZoTUdReU5tVXdJ/aXdpYVhOeklqb2lk/WEp1T21Gd2NEbzNa/VEJrTVRnNE9UZ3lN/alkwTXpjellUVm1N/R1EwTVRWbFlUQmtN/alpsTUNJc0ltOWlh/aUk2VzF0N0luQmhk/R2dpT2lKY0wyWmNM/emsyTWpZNVkyVTRM/VFJoTURjdE5EY3dN/aTA1TXpaaExUWTRO/akJsTVdJMU5UazBa/bHd2WkdReGJXTXpO/eTFqTURnelptRTFa/UzFoWlRoakxUUmhO/MlV0T0RZM01pMDRN/ekF5TkRoaFlqSTJO/MkV1Y0c1bkluMWRY/U3dpWVhWa0lqcGJJ/blZ5YmpwelpYSjJh/V05sT21acGJHVXVa/RzkzYm14dllXUWlY/WDAuOVI3NWVWWEJ4/bWphLTlRS1Mza243/U25TNGljdGtOVDlJ/aTJwVVd1WWhOOA" id = "em2">
+        <img src = "https://imgs.search.brave.com/1alnP_Xl2XopAWhHoUusYKfYqKbnSxuMAjhajXNXzlE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzk2/MjY5Y2U4LTRhMDct/NDcwMi05MzZhLTY4/NjBlMWI1NTk0Zi9k/ZDFtYzFnLTg4MGEw/OTQ2LWY2NjgtNGU0/Yy04OGRiLWE4ODg4/YTY0OTkwNy5wbmc_/dG9rZW49ZXlKMGVY/QWlPaUpLVjFRaUxD/SmhiR2NpT2lKSVV6/STFOaUo5LmV5Snpk/V0lpT2lKMWNtNDZZ/WEJ3T2pkbE1HUXhP/RGc1T0RJeU5qUXpO/ek5oTldZd1pEUXhO/V1ZoTUdReU5tVXdJ/aXdpYVhOeklqb2lk/WEp1T21Gd2NEbzNa/VEJrTVRnNE9UZ3lN/alkwTXpjellUVm1N/R1EwTVRWbFlUQmtN/alpsTUNJc0ltOWlh/aUk2VzF0N0luQmhk/R2dpT2lKY0wyWmNM/emsyTWpZNVkyVTRM/VFJoTURjdE5EY3dN/aTA1TXpaaExUWTRO/akJsTVdJMU5UazBa/bHd2WkdReGJXTXha/eTA0T0RCaE1EazBO/aTFtTmpZNExUUmxO/R010T0Roa1lpMWhP/RGc0T0dFMk5EazVN/RGN1Y0c1bkluMWRY/U3dpWVhWa0lqcGJJ/blZ5YmpwelpYSjJh/V05sT21acGJHVXVa/RzkzYm14dllXUWlY/WDAueGhkLVJwX3VC/NmJ0aWRocExFUnBI/ZWtPc1EtWVloak5u/MTM3RmdqaUhBUQ" id = "em3">
+        <img src = "https://imgs.search.brave.com/jQjzWawVS20oLkakj3-lyHNs7iOHOH78OmDMqYvIt64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzk2/MjY5Y2U4LTRhMDct/NDcwMi05MzZhLTY4/NjBlMWI1NTk0Zi9k/ZDFtYmwyLWNmYTlk/ZTMyLTAzN2YtNDQx/Ni04ZmM5LTU1MDc3/OWI1YWQ1Zi5wbmc_/dG9rZW49ZXlKMGVY/QWlPaUpLVjFRaUxD/SmhiR2NpT2lKSVV6/STFOaUo5LmV5Snpk/V0lpT2lKMWNtNDZZ/WEJ3T2pkbE1HUXhP/RGc1T0RJeU5qUXpO/ek5oTldZd1pEUXhO/V1ZoTUdReU5tVXdJ/aXdpYVhOeklqb2lk/WEp1T21Gd2NEbzNa/VEJrTVRnNE9UZ3lN/alkwTXpjellUVm1N/R1EwTVRWbFlUQmtN/alpsTUNJc0ltOWlh/aUk2VzF0N0luQmhk/R2dpT2lKY0wyWmNM/emsyTWpZNVkyVTRM/VFJoTURjdE5EY3dN/aTA1TXpaaExUWTRO/akJsTVdJMU5UazBa/bHd2WkdReGJXSnNN/aTFqWm1FNVpHVXpN/aTB3TXpkbUxUUTBN/VFl0T0daak9TMDFO/VEEzTnpsaU5XRmtO/V1l1Y0c1bkluMWRY/U3dpWVhWa0lqcGJJ/blZ5YmpwelpYSjJh/V05sT21acGJHVXVa/RzkzYm14dllXUWlY/WDAuaVBIeVZhMjF2/QzJKMXQwUGdVLS1Q/d3NCczVtQllIN3Zo/UG84WnFVVE9FWQ" id = "em4">
+        <img src = "https://imgs.search.brave.com/A1V6-CKbjwKlHWwi26gE5aR4byIZYaiACIkaYx5FVeY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzdm/ODI0NGJiLTEwYjgt/NDNlZC1hNGFhLWMz/NjViM2I0YTE5Ny9k/Nzhtd3h5LTllYzJh/ZmE0LWQyNGEtNGI4/ZS1iYmE0LTEzMWE4/ZTFmZTE0MS5naWY_/dG9rZW49ZXlKMGVY/QWlPaUpLVjFRaUxD/SmhiR2NpT2lKSVV6/STFOaUo5LmV5Snpk/V0lpT2lKMWNtNDZZ/WEJ3T2pkbE1HUXhP/RGc1T0RJeU5qUXpO/ek5oTldZd1pEUXhO/V1ZoTUdReU5tVXdJ/aXdpYVhOeklqb2lk/WEp1T21Gd2NEbzNa/VEJrTVRnNE9UZ3lN/alkwTXpjellUVm1N/R1EwTVRWbFlUQmtN/alpsTUNJc0ltOWlh/aUk2VzF0N0luQmhk/R2dpT2lKY0wyWmNM/emRtT0RJME5HSmlM/VEV3WWpndE5ETmxa/QzFoTkdGaExXTXpO/alZpTTJJMFlURTVO/MXd2WkRjNGJYZDRl/UzA1WldNeVlXWmhO/QzFrTWpSaExUUmlP/R1V0WW1KaE5DMHhN/ekZoT0dVeFptVXhO/REV1WjJsbUluMWRY/U3dpWVhWa0lqcGJJ/blZ5YmpwelpYSjJh/V05sT21acGJHVXVa/RzkzYm14dllXUWlY/WDAuZzNjZzIxYy1m/Q1JDdEx4VmtCdHhM/MUFUT2xMVWdjVHFn/Z0E3MUxObjZDOA.gif" id = "em5">
+        <img src = "https://imgs.search.brave.com/jFSeljsaKmSN3hua4J0cEMNADBKc-Bj0EVf2GQO5svE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZiLzFj/L2JjLzZiMWNiY2Ez/MzdlM2ZjM2E0YTFm/MDEyYjZjYjhjZGUy/LnBuZw" id = "em6">
+        <img src = "https://imgs.search.brave.com/gLOU3y78ZbvE9W9YQXhQGJfnO9KaBF_UPMs9EL_AELA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzk2/MjY5Y2U4LTRhMDct/NDcwMi05MzZhLTY4/NjBlMWI1NTk0Zi9k/ZDFtYzFzLWNhMWRi/OTM1LTdmMDUtNDRi/Yy1hMjFhLTcyZWUz/YjgyMmQzYy5wbmc_/dG9rZW49ZXlKMGVY/QWlPaUpLVjFRaUxD/SmhiR2NpT2lKSVV6/STFOaUo5LmV5Snpk/V0lpT2lKMWNtNDZZ/WEJ3T2pkbE1HUXhP/RGc1T0RJeU5qUXpO/ek5oTldZd1pEUXhO/V1ZoTUdReU5tVXdJ/aXdpYVhOeklqb2lk/WEp1T21Gd2NEbzNa/VEJrTVRnNE9UZ3lN/alkwTXpjellUVm1N/R1EwTVRWbFlUQmtN/alpsTUNJc0ltOWlh/aUk2VzF0N0luQmhk/R2dpT2lKY0wyWmNM/emsyTWpZNVkyVTRM/VFJoTURjdE5EY3dN/aTA1TXpaaExUWTRO/akJsTVdJMU5UazBa/bHd2WkdReGJXTXhj/eTFqWVRGa1lqa3pO/UzAzWmpBMUxUUTBZ/bU10WVRJeFlTMDNN/bVZsTTJJNE1qSmtN/Mk11Y0c1bkluMWRY/U3dpWVhWa0lqcGJJ/blZ5YmpwelpYSjJh/V05sT21acGJHVXVa/RzkzYm14dllXUWlY/WDAuV3hXTEJMWEk4/UklmQ3lXY2hKeXVE/Z2hDX09mS1p5OFJR/dWR4UVU4ejBzVQ" id = "em7">
+
+
+    </section>
+
+    <section class = "sec">
+        <h2>The chaos emeralds</h2>
+
+        <p>Gotta go fast
+        </p>
+    </section>
+
+
+    <div id="superguy"><img src="https://imgs.search.brave.com/4MjTYjluE1DM0sc2GxvsyF0JsyuZcnKnMR7SDwXQPp8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80MS80/Mi9Va1R0dmouanBn" alt="" id = "sonic_img"></div>
+
+
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            background: #f9f9f9;
+            background-image: url("https://imgs.search.brave.com/5RNZY7q_g0TjRIXW-NCk5MDx3f-G-dH2rfRNsvEIiDI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvYmxh/Y2stYW5kLXdoaXRl/LWNvc21vcy1hcnQt/eTF6OTlxcnlpZ2Jj/eHFhcC5qcGc");
+            min-height: 100vh;
+            overflow-x: hidden;
+
+        }
+
+        .logo{
+            font-size: 2em;
+            color: #359381;
+            pointer-events: none;
+            margin-right: 270px;
+
+        }
+
+        header{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+
+        }
+
+        .navigation a{
+            text-decoration: none;
+            color: #359381;
+            padding: 6px 15px;
+            border-radius: 20px;
+            margin: 0 10px;
+            font-weight: 600;
+
+
+        }
+
+        .navigation a:hover,
+        .navigation a.active{
+            background: #359381;
+            color: #fff;
+
+        }
+
+        .parallax{
+            position: relative;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        #text{
+            position: absolute;
+            font-size: 5em;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .parallax img{
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            width: 25%;
+            height: 25%;
+
+            pointer-events: none;
+
+        }
+
+        .sec{
+            position: relative;
+            background: #003329;
+            padding: 100px;
+        }
+
+        .sec h2{
+            font-size: 3em;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .sec p{
+            font-size: 1em;
+            color: #fff;
+            font-weight: 300;
+        }
+
+        #superguy {
+            display: block;
+            position:absolute;
+            top: 1000px;
+        }
+
+
+    </style>
+
+    <script>
+        let text = document.getElementById('text');
+        let em1 = document.getElementById('em1');
+        let em2 = document.getElementById('em2');
+        let em3 = document.getElementById('em3');
+        let em4 = document.getElementById('em4');
+        let em5 = document.getElementById('em5');
+        let em6 = document.getElementById('em6');
+        let em7 = document.getElementById('em7');
+        let superguy = document.getElementById("superguy");
+        
+        let superguy_image = document.getElementById("sonic_img");
+        superguy_image.style.width = "300px";
+        superguy_image.style.height = "300px";
+
+        window.addEventListener('scroll', () =>{
+            let value = window.scrollY;
+            let scrolling = window.scrollY;
+            superguy.style.marginTop = scrolling * -7.5 + "px";
+            superguy.style.marginLeft = scrolling * 7.5 + "px";
+            /*
+            text.style.marginTop = value * 2.5 + "px";
+            em1.style.top = value * -1.5 + "px";
+            em1.style.left = value * 1.5 + "px";
+            em4.style.left = value * 1.5 + "px";
+            em3.style.left = value * -1.5 +"px";
+            em2.style.top = value * 1.5 + "px";
+
+            em2.style.left = value * 1.5 + "px";
+            em3.style.right = value * 1.5 + "px";
+
+
+            */
+
+            if (value < 160){
+                em1.style.left = value * 0.05 + "px" ;
+                em2.style.left = value * 1.05 + "px";
+                em3.style.left = value * 2.05 + "px";
+
+
+                em4.style.left = value * 3.05 + "px";
+                em5.style.left= value * 4.05 + "px";
+                em6.style.left = value * 5.05 + "px";
+
+                em7.style.left = value * 6.05 + "px";
+            }
+
+
+
+        })
+
+
+
+    </script>
+    
+</body>
+</html>
